@@ -101,23 +101,11 @@ nav {
     color: hotpink;
 }
 
-//.mobile-menu-exit {
-    float: right;
-    margin: .5em;
-    cursor: pointer;
-}
-
-//nav ul .primary-nav {
-    margin-top: 1em;
-} 
 nav ul li {
     display: inline;
     line-height: 0.5em;
 }
 
-.primary-nav {
-    
-}
 .active {
     color: black;
     text-decoration: none;
@@ -508,7 +496,7 @@ button {
     z-index: 999;
 }
 
-.depthtext {;
+.depthtext {
     display: block;
     color: white;
     transform: rotate(2deg);
@@ -620,7 +608,6 @@ button {
         position: absolute;
         top: 12em;
         margin: 0px;
-        //text-align: justify;
         padding: 1px;
         word-spacing: 50px;
         letter-spacing: 3px;
