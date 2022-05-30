@@ -1,0 +1,742 @@
+*{
+    text-decoration: none;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
+}
+
+body {
+    margin: 0;  
+    font-family: 'MS PGothic';
+    font-weight: bold;
+    font-size:medium;
+    //font-style: italic;
+}
+
+html.home {
+    background: url(images/bara%20ljus.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.sonicspage {
+    background: url(images/wallpapershit.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+html.bio {
+    background: url(images/dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.livepage {
+    background: black no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.random {
+    background: rgb(0, 110, 255) url(images/water.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* navigering, meny */
+
+.navbar {
+    background: transparent;
+    padding: 0;
+    position: fixed;
+    z-index: 999;
+    width: 99vw;
+    
+    /* */
+    }
+
+.container {
+    padding: 1em;
+    display: flex;
+    place-content: space-between;
+}
+
+nav {
+    display: none;
+    width: 65%;
+    right: 0;
+    top: 0;
+    background: white;
+    background-image: url(images/grid.png);
+    background-size: 198%;
+    height: 60px;
+    padding: 0.1em;
+    border-radius:0.2em;
+    text-align: left;
+    text-transform:lowercase;
+    word-spacing: 2em;
+    box-shadow: -20px 15px 20px whitesmoke;
+}
+
+#menu-button {
+    //color: white;
+    z-index: 999;
+    position: fixed;
+    right: 1.2em;
+    height: 65px;
+    width: 65px;
+    border: none;
+    background: url(images/grid.png) center;
+    background-repeat: no-repeat;
+    background-size: 530%;
+}
+
+#menu-button:hover {
+    color: hotpink;
+}
+
+//.mobile-menu-exit {
+    float: right;
+    margin: .5em;
+    cursor: pointer;
+}
+
+//nav ul .primary-nav {
+    margin-top: 1em;
+} 
+nav ul li {
+    display: inline;
+    line-height: 0.5em;
+}
+
+.primary-nav {
+    
+}
+.active {
+    color: black;
+    text-decoration: none;
+    padding: .5em;
+    font-size: 1.3em;
+}
+nav.menu-btn {
+    display: block;
+}
+
+.eurodyke-logo {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+
+}
+.active:hover {
+    color:hotpink;
+    font-weight: bold;
+}
+
+
+/*textrelaterade saker under detta */
+
+.container2 {
+    position:absolute;
+    width: 72%;
+    height: 90%;
+    margin-top: 8em;
+    margin-left: 5em;
+}
+
+.container2 h1 {
+    writing-mode: vertical-lr;
+    font-style: italic;
+    display: inline;
+    transform: rotate(184deg);
+    padding: 0px;
+    word-spacing: 5px;
+    font-size: 200%;
+    background: rgb(255, 255, 255);
+    padding: 25px 9px;
+    border-radius: 0.1em;
+    color: rgb(0, 0, 0);
+    mix-blend-mode: exclusion;
+    display: inline-block;
+    box-shadow: 0 0px 25px rgb(255, 0, 255);
+}
+
+
+.sent1{
+    color: white;
+    font-style: italic;
+    display:inline;
+    position: absolute;
+    top:0.5em;
+    margin: 0px;
+    //text-align: justify;
+    padding: 1px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    //text-shadow: 1px 1px #ffffff;
+    font-size: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    border-radius: 0.1em;
+    transform: rotate(1deg);
+}
+
+.sent2{
+    font-style: bold;
+    display:inline;
+    position: absolute;
+    top: 4em;
+    margin: 0px;
+    //text-align: justify;
+    padding: 1px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px #ff7878;
+    font-size: 100%;
+    background-color: rgba(0, 255, 221, 0.829);
+    padding: 10px 10px;
+    border-radius: 0.1em;
+    transform: rotate(3deg);
+}
+
+.sent3{
+    color: white;
+    display:inline;
+    position: absolute;
+    top:9.6em;
+    margin: 0px;
+    //text-align: justify;
+    padding: 1px;
+    word-spacing: 50px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px #0077ff;
+    font-size: 100%;
+    background-color: rgba(207, 0, 0, 0.808);
+    padding: 10px 10px;
+    border-radius: 0.1em;
+    transform: rotate(6deg);
+}
+
+/*social media links*/
+
+.socialmedia1 {
+    position: absolute;
+    z-index: 999;
+    right: 9em;
+    bottom: 17em;
+    font-family: arial italic;
+    list-style-type: none;
+    transform: rotate(1deg);
+    transition: transform .3s;
+    margin: 0 auto;
+}
+.socialmedia2 {
+    position: absolute;
+    z-index: 999;
+    right: 4em;
+    bottom: 14em;
+    font-family: arial italic;
+    list-style-type: none;
+    transform: rotate(-2deg);
+    transition: transform .2s;
+    margin: 0 auto;
+ 
+}
+.socialmedia3 {
+    position: absolute;
+    z-index: 999;
+    right: 7em;
+    bottom: 9em;
+    font-family: arial italic;
+    list-style-type: none;
+    transform: rotate(2deg);
+    transition: transform .4s;
+    margin: 0 auto;
+}
+
+
+.bandcamp {
+    color: orange;
+    background: url(images/butterflies.gif) 5%;
+    line-height: 4;
+    border: 8px solid black;
+    border-radius: 0.1em;
+    border-image: url(images/stars.gif) 30% repeat;
+}
+.bandcamp:hover {
+    color: red;
+}
+.socialmedia1:hover {
+    -ms-transform: rotate(-6deg);/* IE 9 */
+    -webkit-transform: rotate(-6deg);/* Safari 3-8 */
+    transform: rotate(-6deg);
+}
+
+
+.twitter {
+    color: rgb(255, 0, 191);
+    background: url(images/hearts.gif) 12%;
+    line-height: 4;
+    border: 8px solid black;
+    border-radius: 0.1em;
+    border-image: url(images/stars.gif) 30% repeat;
+    
+   
+}
+.twitter:hover {
+    color: rgb(0, 230, 207);
+
+}
+.socialmedia2:hover {
+    -ms-transform: rotate(5deg);/* IE 9 */
+    -webkit-transform: rotate(5deg);/* Safari 3-8 */
+    transform: rotate(5deg);
+}
+
+.instagram {
+    color: rgb(51, 255, 0);
+    background: url(images/questionmarkgif.gif) 10%;
+    line-height: 4;
+    border: 8px solid black;
+    border-radius: 0.1em;
+    border-image: url(images/stars.gif) 30% repeat;
+    
+}
+.instagram:hover {
+    color: white;
+}
+.socialmedia3:hover {
+    -ms-transform: rotate(-3deg);/* IE 9 */
+    -webkit-transform: rotate(-3deg);/* Safari 3-8 */
+    transform: rotate(-3deg);
+}
+
+/*media*/
+
+.video1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+    width: 99vw;
+    height: 79vh;
+}
+
+#sampleandhold {
+    transform: rotate(-3deg);
+    border: 40px solid black;
+    border-image: url(images/golden-frame.png) 17% round;
+}
+
+.audioplayer {
+    position: absolute;
+    bottom: 0.1em;
+    left: 0.1em;
+    z-index: 999;
+}
+#eurodyke-music {
+    border: 30px solid black;
+    border-image: url(images/me.jpeg) 33% round;
+    border-radius: 0.11em;
+    width: 200%;
+}
+
+/* SONICS (sida) */
+
+.cooking {
+    position: absolute;
+    right: 3em;
+    bottom: 0em;
+    opacity: 0.1;
+    transition: transform 7s;
+    margin: 0 auto;
+}
+
+.cooking:hover {
+    opacity: 0.95;
+    -ms-transform: rotate(360deg);/* IE 9 */
+    -webkit-transform: rotate(360deg);/* Safari 3-8 */
+    transform: rotate(360deg);
+}
+
+#europearl {
+    position:absolute;
+    transform: rotate(6deg);
+    top: 40em;
+    left: 3em;
+    border: 40px solid black;
+    border-image: url(images/grid.png) 14% round;
+    z-index: 999;
+}
+
+.sonicsheader {
+    position: absolute;
+    top: 6.9em;
+    left: 7em;
+}
+.sonicsheader1 {
+    letter-spacing: 30px;
+}
+
+.sonicstext {
+    position: absolute;
+    top: 8.9em;
+    left: 2em;
+    width: 25%;
+    line-height: 20px;
+    font-size: large;
+}
+.sonicstext1 {
+    margin: 0px;
+    border: 1px;
+    background-color: black;
+    color: white;
+}
+.sonicstext2 {
+    margin: 0px;
+    border: 1px;
+    background-color: rgb(76, 0, 255);
+    color: white;
+}
+.sonicstext3 {
+    margin: 0px;
+    border: 1px;
+    background-color: rgb(25, 0, 255);
+    color: white;
+}
+.sonicstext4 {
+    margin: 0px;
+    border: 1px;
+    background-color: rgb(111, 0, 255);
+    color: white;
+}
+
+.sonicstext5 {
+    margin: 0px;
+    border: 1px;
+    background-color: rgb(191, 0, 255);
+    color: white;
+}
+
+.sonicstext6 {
+    margin: 0px;
+    border: 1px;
+    background-color: rgb(0, 255, 128);
+    color: white;
+}
+
+
+.bandcampembed {
+    position: absolute;
+    z-index: 999;
+    top: 14em;
+    left: 17em;
+    transform: rotate(90deg);
+}
+
+.picturespianopiece {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 10px;
+    top: 6.9em;
+    right: 5em;
+    width: 22%;
+}
+
+.pdfpiano {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    top: 16em;
+    right: 30em;
+    width: 34%;
+}
+
+.flexboxwrap {
+    flex-wrap: wrap;
+}
+
+/*bio page*/
+
+.contactinfodiv {
+    position: absolute;
+    top: 15%;
+    left: 61%;
+}
+
+
+.contactinfo {
+    color: red;
+}
+
+.bioheaderpos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 40vh;
+    width: 55vw;
+}
+.bioheader {
+    color: rgb(152, 182, 59);
+    letter-spacing: 10px;
+    transform: rotate(-80deg);
+    border: 10px solid black;
+    background: url(images/jagged\ lines.png) 100%;
+    border-image: url(images/jagged\ lines.png) 14% round;
+}
+
+.biotextpos {
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 30vw;
+    margin-right: 5vw;
+}
+.biotext {
+    color: white;
+    transform: rotate(-1deg);
+    padding: 10px;
+    border-left: 5px solid rgb(32, 110, 255);;
+    z-index: 999;
+}
+
+.depthtext {;
+    display: block;
+    color: white;
+    transform: rotate(2deg);
+    font-style: normal;
+    padding: 20px;
+    z-index: 999;
+}
+.depthtext2 {
+    font-style: italic;
+    display: inline-block;
+    color: rgb(205, 194, 255);
+    transform: rotate(30deg);
+    font-style: normal;
+    padding: 20px;
+    margin-left: 370px;
+    word-spacing: 16px;
+    z-index: 999;
+}
+
+.sampleandholdcover {
+    display: flex;
+    position: absolute;
+    width: 10%;
+    top: 67%;
+    left: 15%;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.sampleandholdcover:hover {
+    -ms-transform: rotate(23deg) scale(2.5);/* IE 9 */
+    -webkit-transform: rotate(23deg) scale(2.5);/* Safari 3-8 */
+    transform: rotate(23deg) scale(2.5);
+  }
+
+/*live page*/
+
+.livedates {
+    position: absolute;
+    top: 10em;
+    left: 10em;
+    z-index: 999;
+}
+
+.livetext {
+    color: white;
+    mix-blend-mode: exclusion;
+    font-weight: bold;
+    list-style-type: none;
+    width: 60vw;
+    font-family: 'MingLiU-ExtB';
+}
+
+.shanling1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 7%;
+    right: 1em;
+    bottom: 1em;
+}
+
+.cubase1 {
+    width: 20%;
+    background: url(images/cubase.png);
+    position: relative;
+    animation-name: cubaseani;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    left: 400px;
+    top: 145px;
+  }
+  
+  @keyframes cubaseani {
+    0%   {background: url(images/cubase.png); left:400px; top:145px;}
+    25%  {background: url(images/cubase.png); left:950px; top:120px;}
+    50%  {background: url(images/cubase.png); left:658x; top:550px;}
+    75%  {background: url(images/cubase.png); left:112px; top:230px;}
+    100% {background: url(images/cubase.png); left:400px; top:145px;}
+  }
+
+
+
+/*random*/
+
+.jordnötssmör {
+    color: rgb(128, 66, 98);
+    font-family: helvetica;
+    font-size: 70%;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+/*phone change*/
+
+@media (orientation: portrait), (max-width: 800px) {
+   
+    .sent3{
+        color: white;
+        display:inline;
+        position: absolute;
+        top: 12em;
+        margin: 0px;
+        //text-align: justify;
+        padding: 1px;
+        word-spacing: 50px;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px #0077ff;
+        font-size: 100%;
+        background-color: rgba(207, 0, 0, 0.808);
+        padding: 10px 10px;
+        border-radius: 0.1em;
+        transform: rotate(6deg);
+    }
+
+    .video1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 5px;
+        width: 99vw;
+        height: 65vh;
+    }
+   
+    .pdfpiano {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 50em;
+        left: 2em;
+        width: 80%;
+    }
+
+    #europearl {
+        position:absolute;
+        transform: rotate(6deg);
+        top: 31em;
+        left: 3em;
+        border: 40px solid black;
+        border-image: url(images/grid.png) 14% round;
+        z-index: 999;
+    }
+
+    .picturespianopiece {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 10px;
+        top: 78em;
+        left: 2em;
+        width: 80%;
+    }
+
+    .bioheader {
+        color: hotpink;
+        transform: rotate(-7deg);
+        border: 10px solid black;
+        background: url(images/jagged\ lines.png) 100%;
+        border-image: url(images/jagged\ lines.png) 14% round;
+    }
+
+    .biotextpos {
+        position:absolute;
+        margin-top: 40vh;
+        margin-left: 2em;
+        margin-right: 2vw;
+    }
+
+    .sampleandholdcover {
+        display: flex;
+        position: absolute;
+        width: 20%;
+        top: 72%;
+        left: 30%;
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+    
+    .sonicstext {
+        position: absolute;
+        top: 8.9em;
+        left: 2em;
+        width: 70%;
+        line-height: 20px;
+        font-size: large;
+    }
+
+    .bandcampembed {
+        position: absolute;
+        z-index: 999;
+        top: 14em;
+        left: 60%;
+        transform: rotate(90deg);
+    }
+
+    .shanling1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        right: 1em;
+        bottom: 1em;
+    }
+}
+
+@media (max-height: 700px) {
+    .video1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 5px;
+        width: 99vw;
+        height: 85vh;
+    }
+}
