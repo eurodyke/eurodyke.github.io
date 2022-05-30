@@ -572,7 +572,7 @@ button {
   @keyframes cubaseani {
     0%   {background: url(images/cubase.png); left:400px; top:145px;}
     25%  {background: url(images/cubase.png); left:950px; top:120px;}
-    50%  {background: url(images/cubase.png); left:658x; top:550px;}
+    50%  {background: url(images/cubase.png); left:658px; top:550px;}
     75%  {background: url(images/cubase.png); left:112px; top:230px;}
     100% {background: url(images/cubase.png); left:400px; top:145px;}
   }
