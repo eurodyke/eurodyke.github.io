@@ -542,10 +542,10 @@ button {
 .livetext {
     color: white;
     mix-blend-mode: exclusion;
-    font-weight: bold;
+    font-weight: normal;
     list-style-type: none;
     width: 60vw;
-    font-family: "MingLiU-ExtB" "Monaco";
+    font-family: "MingLiU-ExtB", "Georgia";
 }
 
 .shanling1 {
