@@ -5,8 +5,8 @@
 
 body {
     margin: 0;  
-    font-family: 'MS PGothic';
-    font-weight: bold;
+    font-family: "Andalé Mono", "Trebuchet MS", "Arial";
+    font-weight: normal;
     font-size:medium;
 }
 
@@ -215,7 +215,6 @@ button {
     z-index: 999;
     right: 9em;
     bottom: 17em;
-    font-family: arial italic;
     list-style-type: none;
     transform: rotate(1deg);
     transition: transform .3s;
@@ -226,7 +225,6 @@ button {
     z-index: 999;
     right: 4em;
     bottom: 14em;
-    font-family: arial italic;
     list-style-type: none;
     transform: rotate(-2deg);
     transition: transform .2s;
@@ -238,7 +236,6 @@ button {
     z-index: 999;
     right: 7em;
     bottom: 9em;
-    font-family: arial italic;
     list-style-type: none;
     transform: rotate(2deg);
     transition: transform .4s;
@@ -548,7 +545,7 @@ button {
     font-weight: bold;
     list-style-type: none;
     width: 60vw;
-    font-family: 'MingLiU-ExtB';
+    font-family: "MingLiU-ExtB" "Monaco";
 }
 
 .shanling1 {
