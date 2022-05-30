@@ -435,6 +435,7 @@ button {
     top: 6.9em;
     right: 5em;
     width: 22%;
+    height: 22%;
 }
 
 .pdfpiano {
@@ -444,6 +445,7 @@ button {
     padding: 5px;
     top: 16em;
     right: 30em;
+    width: 34%;
     width: 34%;
 }
 
@@ -635,6 +637,7 @@ button {
         top: 50em;
         left: 2em;
         width: 80%;
+        height: 80%;
     }
 
     #europearl {
@@ -656,6 +659,7 @@ button {
         top: 78em;
         left: 2em;
         width: 80%;
+        height: 80%;
     }
 
     .bioheader {
