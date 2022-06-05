@@ -327,7 +327,7 @@ button {
     border: 30px solid black;
     border-image: url(images/me.jpeg) 33% round;
     border-radius: 0.11em;
-    width: 200%;
+    width: 17em;
 }
 
 /* SONICS (sida) */
@@ -595,7 +595,6 @@ button {
 
 
 
-
 /*phone change*/
 
 @media (orientation: portrait), (max-width: 800px) {
@@ -721,4 +720,59 @@ button {
         width: 99vw;
         height: 85vh;
     }
+}
+
+@media (orientation: portrait), (max-width: 375px) {
+
+
+    nav {
+        font-size: smaller;
+        text-align: left;
+        height: 90px;
+        width: 200%;
+    }
+
+    .video1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 5px;
+        width: 99vw;
+        height: 780px;
+    }
+
+    .container2 {
+        position: absolute;
+        width: 90%;
+        height: 120%;
+        margin-top: 8em;
+        margin-left: 0.5em;
+    }
+
+    .sent2 {
+        top: 6em;
+    }
+
+    .sent3 {
+        top: 20em;
+        display: flex;
+    }
+   
+    .socialmedia1 {
+        top: 790px;
+    }
+
+    .socialmedia2 {
+        top: 850px;
+    }
+
+    .socialmedia3 {
+        top: 900px;
+    }
+
+    .audioplayer {
+        top: 950px;
+    }
+
 }
