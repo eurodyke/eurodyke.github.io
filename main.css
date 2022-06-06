@@ -440,9 +440,9 @@ button {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    border-color: transparent;
     top: 16em;
     right: 30em;
-    width: 34%;
     width: 34%;
 }
 
@@ -628,9 +628,8 @@ button {
    
     .pdfpiano {
         position: absolute;
-        display: flex;
-        flex-direction: column;
-        top: 50em;
+        display:flex;
+        top: 65em;
         left: 2em;
         width: 80%;
         height: 80%;
@@ -639,11 +638,12 @@ button {
     #europearl {
         position:absolute;
         transform: rotate(6deg);
-        top: 31em;
+        top: 46em;
         left: 3em;
         border: 40px solid black;
         border-image: url(images/grid.png) 14% round;
         z-index: 999;
+        width: 60%;
     }
 
     .picturespianopiece {
@@ -652,7 +652,7 @@ button {
         flex-direction: column;
         row-gap: 30px;
         padding: 10px;
-        top: 78em;
+        top: 95em;
         left: 2em;
         width: 80%;
         height: 80%;
@@ -696,7 +696,7 @@ button {
         position: absolute;
         z-index: 999;
         top: 14em;
-        left: 60%;
+        left: 50%;
         transform: rotate(90deg);
     }
 
@@ -722,14 +722,31 @@ button {
     }
 }
 
-@media (orientation: portrait), (max-width: 375px) {
+@media (orientation: portrait), (max-width: 399px) {
+
+    .container {
+        display:flex;
+        flex-wrap: wrap;
+    }
 
 
     nav {
         font-size: smaller;
-        text-align: left;
-        height: 90px;
-        width: 200%;
+        height: 145px;
+        width: 99%;
+        word-spacing: 1em;
+        border-radius: 2em;
+        text-align: center;
+    }
+
+    nav ul li {
+        word-break: 100%;
+        font-size: large;
+        line-height: 50px;
+    }
+
+    .active {
+        font-size: 1.6em;
     }
 
     .video1 {
