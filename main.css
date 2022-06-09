@@ -417,7 +417,6 @@ button {
 
 .bandcampembed {
     position: absolute;
-    z-index: 999;
     top: 14em;
     left: 17em;
     transform: rotate(90deg);
@@ -536,7 +535,6 @@ button {
     position: absolute;
     top: 10em;
     left: 10em;
-    z-index: 999;
 }
 
 .livetext {
@@ -558,25 +556,29 @@ button {
 }
 
 .cubase1 {
-    width: 20%;
-    background: url(images/cubase.png);
     position: relative;
     animation-name: cubaseani;
     animation-duration: 8s;
     animation-iteration-count: infinite;
     left: 400px;
     top: 145px;
+    z-index: -1;
   }
+
+  .cubase2 {
+    width: 100%;
+  }
+
+
+
   
   @keyframes cubaseani {
-    0%   {background: url(images/cubase.png); left:400px; top:145px;}
-    25%  {background: url(images/cubase.png); left:950px; top:120px;}
-    50%  {background: url(images/cubase.png); left:658px; top:550px;}
-    75%  {background: url(images/cubase.png); left:112px; top:230px;}
-    100% {background: url(images/cubase.png); left:400px; top:145px;}
+    0%   {image: url(images/cubase.png); z-index: -1; width: 10%; left:400px; top:145px;}
+    25%  {image: url(images/cubase.png); width: 20%; left:950px; top:120px;}
+    50%  {image: url(images/cubase.png); width: 35%; left:658px; top:450px;}
+    75%  {image: url(images/cubase.png); width: 20%; left:112px; top:230px;}
+    100% {image: url(images/cubase.png); width: 10%; left:400px; top:145px;}
   }
-
-
 
 /*random*/
 
@@ -590,9 +592,12 @@ button {
     font-style: normal;
 }
 
-
-
-
+.kmhbild2 {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 20%;
+}
 
 
 /*phone change*/
@@ -671,16 +676,40 @@ button {
         margin-top: 40vh;
         margin-left: 2em;
         margin-right: 2vw;
+        width: 90%;
     }
+
+    .biotext {
+        width: 90%;
+    }
+
+    .depthtext2 {
+        margin-left: 10%;
+        display: flex;
+        width: 70%;
+        color: rgb(255, 91, 91);
+    }   
+
 
     .sampleandholdcover {
         display: flex;
         position: absolute;
-        width: 20%;
-        top: 72%;
-        left: 30%;
+        width: 60%;
+        padding: 10px;
+        top: 130%;
+        left: 15%;
         transition: transform .2s;
         margin: 0 auto;
+    }
+
+    .contactinfodiv {
+        position: absolute;
+        top: 15%;
+        left: 41%;
+    }
+
+    .contactinfo {
+        font-size:medium;
     }
     
     .sonicstext {
@@ -694,7 +723,6 @@ button {
 
     .bandcampembed {
         position: absolute;
-        z-index: 999;
         top: 14em;
         left: 50%;
         transform: rotate(90deg);
@@ -708,7 +736,16 @@ button {
         right: 1em;
         bottom: 1em;
     }
+
+    @keyframes cubaseani {
+        0%   {image: url(images/cubase.png); width: 25%; left:50px; top:145px;}
+        25%  {image: url(images/cubase.png); width: 40%; left:50px; top:900px;}
+        50%  {image: url(images/cubase.png); width: 60%; left:50px; top:1850px;}
+        75%  {image: url(images/cubase.png); width: 40%; left:50px; top:1050px;}
+        100% {image: url(images/cubase.png); width: 25%; left:50px; top:145px;}
+      }
 }
+  
 
 @media (max-height: 700px) {
     .video1 {
@@ -734,7 +771,7 @@ button {
         font-size: smaller;
         height: 145px;
         width: 99%;
-        word-spacing: 1em;
+        word-spacing: 10px;
         border-radius: 2em;
         text-align: center;
     }
@@ -746,7 +783,7 @@ button {
     }
 
     .active {
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
 
     .video1 {
@@ -792,4 +829,27 @@ button {
         top: 950px;
     }
 
+    .livedates {
+        position: absolute;
+        top: 10em;
+        left: 5em;
+    }
+    
+    .livetext {
+        color: white;
+        mix-blend-mode: exclusion;
+        font-weight: normal;
+        list-style-type: none;
+        width: 50%;
+        font-family: "MingLiU-ExtB", "Georgia";
+    }
+    
+    .kmhbild2 {
+        position: absolute;
+        top: 60%;
+        right: 12%;
+        width: 40%;
+        padding: 25px;
+    }
 }
+
