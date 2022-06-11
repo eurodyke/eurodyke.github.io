@@ -449,6 +449,12 @@ button {
     flex-wrap: wrap;
 }
 
+.pdfproblem {
+    color: rgb(238, 255, 0);
+    font-weight: 300;
+    font-style: bold;
+}
+
 /*bio page*/
 
 .contactinfodiv {
@@ -643,7 +649,7 @@ button {
     #europearl {
         position:absolute;
         transform: rotate(6deg);
-        top: 46em;
+        top: 48em;
         left: 3em;
         border: 40px solid black;
         border-image: url(images/grid.png) 14% round;
@@ -660,7 +666,6 @@ button {
         top: 95em;
         left: 2em;
         width: 80%;
-        height: 80%;
     }
 
     .bioheader {
@@ -695,17 +700,16 @@ button {
         display: flex;
         position: absolute;
         width: 60%;
-        padding: 10px;
-        top: 130%;
+        top: 110%;
         left: 15%;
-        transition: transform .2s;
+        transition: none;
         margin: 0 auto;
     }
 
     .contactinfodiv {
         position: absolute;
         top: 15%;
-        left: 41%;
+        left: 30%;
     }
 
     .contactinfo {
@@ -739,10 +743,16 @@ button {
 
     @keyframes cubaseani {
         0%   {image: url(images/cubase.png); width: 25%; left:50px; top:145px;}
-        25%  {image: url(images/cubase.png); width: 40%; left:50px; top:900px;}
-        50%  {image: url(images/cubase.png); width: 60%; left:50px; top:1850px;}
+        25%  {image: url(images/cubase.png); width: 40%; left:50px; top:800px;}
+        50%  {image: url(images/cubase.png); width: 60%; left:50px; top:1650px;}
         75%  {image: url(images/cubase.png); width: 40%; left:50px; top:1050px;}
         100% {image: url(images/cubase.png); width: 25%; left:50px; top:145px;}
+      }
+
+      .sampleandholdcover:hover {
+        -ms-transform: none;/* IE 9 */
+        -webkit-transform: none;/* Safari 3-8 */
+        transform: none;
       }
 }
   
