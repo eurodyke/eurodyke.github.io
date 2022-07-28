@@ -330,6 +330,12 @@ button {
     width: 17em;
 }
 
+.counter {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
 /* SONICS (sida) */
 
 .cooking {
