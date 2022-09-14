@@ -535,6 +535,23 @@ button {
     margin: 0 auto;
 }
 
+.hekatepic {
+    display: flex;
+    position: absolute;
+    width: 8%;
+    top: 70%;
+    left: 83%;
+}
+
+.hekatetext {
+    display: flex;
+    position: absolute;
+    top: 86%;
+    left: 83%;
+    font-size: 70%;
+    color: aqua;
+}
+
 .sampleandholdcover:hover {
     -ms-transform: rotate(23deg) scale(2.5);/* IE 9 */
     -webkit-transform: rotate(23deg) scale(2.5);/* Safari 3-8 */
@@ -712,6 +729,22 @@ button {
         margin: 0 auto;
     }
 
+    .hekatepic {
+        display: flex;
+        position: absolute;
+        width: 12%;
+        top: 110%;
+        left: 83%;
+    }
+    
+    .hekatetext {
+        display: flex;
+        position: absolute;
+        top: 115.5%;
+        left: 83%;
+        font-size: 70%;
+        color: aqua;
+    }
     .contactinfodiv {
         position: absolute;
         top: 15%;
