@@ -357,7 +357,7 @@ button {
 #europearl {
     position:absolute;
     transform: rotate(6deg);
-    top: 40em;
+    top: 50em;
     left: 3em;
     border: 40px solid black;
     border-image: url(images/grid.png) 14% round;
@@ -418,6 +418,13 @@ button {
     border: 1px;
     background-color: rgb(0, 255, 128);
     color: white;
+}
+
+.sonicstext7 {
+    margin: 0px;
+    border: 1px;
+    background-color: rgb(255, 246, 71);
+    color: rgb(58, 38, 38);
 }
 
 
@@ -610,6 +617,14 @@ button {
   }
 
 /*random*/
+
+.recourcestext {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    font-family: "MingLiU-ExtB", "Georgia";
+    color: #efc6e6;
+}
 
 .jordnötssmör {
     color: rgb(128, 66, 98);
