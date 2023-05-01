@@ -28,7 +28,7 @@ const init_phones = ["HTH67"],                      // Optional. Which graphs to
       targetDashed = true,                         // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
       labelsPosition = "default",                   // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
-      stickyLabels = false,                         // "Sticky" labels 
+      stickyLabels = true,                         // "Sticky" labels 
       analyticsEnabled = false;                     // Enables Google Analytics 4 measurement of site usage
 
 // Specify which targets to display
