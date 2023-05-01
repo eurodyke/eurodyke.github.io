@@ -1,6 +1,5 @@
 *{
     text-decoration: none;
-    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
 }
 
 body {
@@ -8,6 +7,7 @@ body {
     font-family: "Andalé Mono", "Trebuchet MS", "Arial";
     font-weight: normal;
     font-size:medium;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
 }
 
 html.home {
@@ -16,6 +16,7 @@ html.home {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
 }
 
 html.sonicspage {
@@ -24,6 +25,7 @@ html.sonicspage {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
 }
 html.bio {
     background: url(images/dark.jpg) no-repeat center center fixed;
@@ -31,6 +33,7 @@ html.bio {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
 }
 
 html.livepage {
@@ -39,10 +42,20 @@ html.livepage {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
 }
 
 html.random {
     background: rgb(0, 110, 255) url(images/water.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
+}
+
+html.iframe {
+    background: black no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -641,6 +654,14 @@ button {
     top: 15%;
     right: 10%;
     width: 20%;
+}
+
+/*squigs page*/
+
+.sample-iframe-container {
+    position: absolute;
+    top: 16%;
+    right: 10%;
 }
 
 
