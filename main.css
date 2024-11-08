@@ -54,8 +54,8 @@ html.random {
     cursor: url(https://ani.cursors-4u.net/toons/too-12/too1134.cur), auto !important;
 }
 
-html.iframe {
-    background: black no-repeat center center fixed;
+html.visuals {
+    background: url(images/resorna1.jpg) repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -658,13 +658,177 @@ button {
     width: 20%;
 }
 
-/*squigs page*/
+/*visuals page*/
 
-.sample-iframe-container {
+.visualspicturestext {
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    font-size: 150%;
+    font-style: italic;
     position: absolute;
-    top: 16%;
-    right: 10%;
+    left: 12%;
+    top: 18%;
 }
+
+/*textureimages*/
+
+
+
+
+.textureimages {
+    position: absolute;
+    left: 12%;
+    top: 27%;
+}
+
+.texture1 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    transition-duration: 0.2s;
+
+}
+.texture1:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture2 {
+    position: relative;
+    width: 100%;
+    max-width: 310px;
+    transition-duration: 0.2s;
+}
+.texture2:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture3 {
+    position: relative;
+    width: 100%;
+    max-width: 294px;
+    transition-duration: 0.2s;
+}
+.texture3:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture4 {
+    position: relative;
+    width: 100%;
+    max-width: 305px;
+    transition-duration: 0.2s;
+
+}
+.texture4:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture5 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    transition-duration: 0.2s;
+}
+.texture5:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture6 {
+    position: relative;
+    width: 100%;
+    max-width: 293px;
+    transition-duration: 0.2s;
+}
+.texture6:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  } 
+.texture7 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    transition-duration: 0.2s;
+
+}
+.texture7:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture8 {
+    position: relative;
+    width: 100%;
+    max-width: 307px;
+    transition-duration: 0.2s;
+}
+.texture8:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture9 {
+    position: relative;
+    width: 100%;
+    max-width: 296px;
+    transition-duration: 0.2s;
+}
+.texture9:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture10 {
+    position: relative;
+    width: 100%;
+    max-width: 302px;
+    transition-duration: 0.2s;
+
+}
+.texture10:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture11 {
+    position: relative;
+    width: 100%;
+    max-width: 293px;
+    transition-duration: 0.2s;
+}
+.texture11:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
+.texture12 {
+    position: relative;
+    width: 100%;
+    max-width: 301px;
+    transition-duration: 0.2s;
+}
+.texture12:hover {
+    -ms-transform: scale(1.02);/* IE 9 */
+    -webkit-transform: scale(1.02);/* Safari 3-8 */
+    transform: scale(1.02);
+    z-index: 1;
+  }
 
 
 /*phone change*/
