@@ -795,7 +795,7 @@ button {
 .texture10 {
     position: relative;
     width: 100%;
-    max-width: 302px;
+    max-width: 303px;
     transition-duration: 0.2s;
 
 }
@@ -808,7 +808,7 @@ button {
 .texture11 {
     position: relative;
     width: 100%;
-    max-width: 293px;
+    max-width: 298px;
     transition-duration: 0.2s;
 }
 .texture11:hover {
@@ -820,7 +820,7 @@ button {
 .texture12 {
     position: relative;
     width: 100%;
-    max-width: 301px;
+    max-width: 302px;
     transition-duration: 0.2s;
 }
 .texture12:hover {
