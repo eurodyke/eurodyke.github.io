@@ -372,7 +372,7 @@ button {
 #europearl {
     position:absolute;
     transform: rotate(6deg);
-    top: 50em;
+    top: 65em;
     left: 3em;
     border: 40px solid black;
     border-image: url(images/grid.png) 14% round;
@@ -442,24 +442,19 @@ button {
     color: rgb(58, 38, 38);
 }
 
+.sonicstext8 {
+    margin: 0px;
+    border: 1px;
+    background-color: rgb(204, 49, 56);
+    color: rgb(255, 255, 255);
+}
+
 
 .bandcampembed {
     position: absolute;
     top: 14em;
     left: 17em;
     transform: rotate(90deg);
-}
-
-.picturespianopiece {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    padding: 10px;
-    top: 6.9em;
-    right: 5em;
-    width: 22%;
-    height: 22%;
 }
 
 .pdfpiano {
@@ -865,7 +860,7 @@ button {
     .pdfpiano {
         position: absolute;
         display:flex;
-        top: 65em;
+        top: 102em;
         left: 2em;
         width: 80%;
         height: 80%;
@@ -874,23 +869,12 @@ button {
     #europearl {
         position:absolute;
         transform: rotate(6deg);
-        top: 48em;
+        top: 82em;
         left: 3em;
         border: 40px solid black;
         border-image: url(images/grid.png) 14% round;
         z-index: 999;
         width: 60%;
-    }
-
-    .picturespianopiece {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        row-gap: 30px;
-        padding: 10px;
-        top: 95em;
-        left: 2em;
-        width: 80%;
     }
 
     .bioheader {
