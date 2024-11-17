@@ -467,7 +467,7 @@ button {
 .soundcloudembed {
     position: absolute;
     top: 52em;
-    right: 27em;
+    left: 29em;
 }
 
 .pdfpiano {
@@ -873,16 +873,22 @@ button {
     .pdfpiano {
         position: absolute;
         display:flex;
-        top: 102em;
+        top: 116em;
         left: 2em;
         width: 80%;
         height: 80%;
     }
 
+    .soundcloudembed {
+        position: absolute;
+        top: 86em;
+        left: 10%;
+    }
+
     #europearl {
         position:absolute;
         transform: rotate(6deg);
-        top: 82em;
+        top: 96em;
         left: 3em;
         border: 40px solid black;
         border-image: url(images/grid.png) 14% round;
