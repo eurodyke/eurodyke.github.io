@@ -325,7 +325,7 @@ button {
 .otoroku {
     transform: rotate(-3deg);
     border: 40px solid black;
-    border-image: url(images/golden-frame.png) 18% round;
+    border-image: url(images/golden-frame.png) 17% round;
 }
 
 .audioplayer {
