@@ -86,7 +86,7 @@ nav {
     right: 0;
     top: 0;
     background: white;
-    background-image: url(images/grid.png);
+    //*background-image: url(images/grid.png);*//
     background-size: 198%;
     height: 60px;
     padding: 0.1em;
@@ -94,7 +94,7 @@ nav {
     text-align: left;
     text-transform:lowercase;
     word-spacing: 2em;
-    box-shadow: -20px 15px 20px whitesmoke;
+    //*box-shadow: -20px 15px 20px whitesmoke;*//
 }
 
 #menu-button {
@@ -145,7 +145,7 @@ button {
 /*textrelaterade saker under detta */
 
 .container2 {
-    position:absolute;
+    position:fixed;
     width: 72%;
     height: 90%;
     margin-top: 8em;
@@ -160,13 +160,13 @@ button {
     padding: 0px;
     word-spacing: 5px;
     font-size: 200%;
-    background: rgb(255, 255, 255);
+    background: rgb(33, 0, 15);
     padding: 25px 9px;
     border-radius: 0.1em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 243, 243);
     mix-blend-mode: exclusion;
     display: inline-block;
-    box-shadow: 0 0px 25px rgb(255, 0, 255);
+    box-shadow: 0 0px 25px rgb(229, 238, 194);
 }
 
 
@@ -315,16 +315,16 @@ button {
 /*media*/
 
 .video1 {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding: 5px;
-    width: 99vw;
-    height: 79vh;
+    right: 28em;
+    height: 37em;
 }
 
-#sampleandhold {
+.otoroku {
     transform: rotate(-3deg);
     border: 40px solid black;
     border-image: url(images/golden-frame.png) 17% round;
