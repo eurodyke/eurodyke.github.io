@@ -86,7 +86,6 @@ nav {
     right: 0;
     top: 0;
     background: white;
-    //*background-image: url(images/grid.png);*//
     background-size: 198%;
     height: 60px;
     padding: 0.1em;
@@ -94,7 +93,6 @@ nav {
     text-align: left;
     text-transform:lowercase;
     word-spacing: 2em;
-    //*box-shadow: -20px 15px 20px whitesmoke;*//
 }
 
 #menu-button {
