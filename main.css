@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0;  
+    margin: 0;
     font-family: "Andalé Mono", "Trebuchet MS", "Arial";
     font-weight: normal;
     font-size:medium;
@@ -458,14 +458,14 @@ button {
 .bandcampembed {
     position: absolute;
     top: 14em;
-    left: 17em;
+    left: 22em;
     transform: rotate(90deg);
 }
 
 .soundcloudembed {
     position: absolute;
     top: 52em;
-    left: 29em;
+    left: 35em;
 }
 
 .pdfpiano {
@@ -858,7 +858,7 @@ button {
         transform: rotate(6deg);
     }
 
-    .video1 {
+  /*  .video1 {
         position: absolute;
         display: flex;
         justify-content: center;
@@ -866,7 +866,7 @@ button {
         padding: 5px;
         width: 99vw;
         height: 65vh;
-    }
+    } */
    
     .pdfpiano {
         position: absolute;
