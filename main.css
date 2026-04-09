@@ -623,18 +623,18 @@ button {
   }
 
   .antifa2 {
-    width: 10%;
+    width: 100%;
   }
 
 
 
   
   @keyframes cubaseani {
-    0%   {image: url(images/cubase.png); z-index: -1; width: 10%; left:400px; top:145px;}
-    25%  {image: url(images/cubase.png); width: 20%; left:950px; top:120px;}
-    50%  {image: url(images/cubase.png); width: 35%; left:658px; top:450px;}
-    75%  {image: url(images/cubase.png); width: 20%; left:112px; top:230px;}
-    100% {image: url(images/cubase.png); width: 10%; left:400px; top:145px;}
+    0%   {image: url(images/hohefrequenzen.png); z-index: -1; width: 10%; left:400px; top:145px;}
+    25%  {image: url(images/hohefrequenzen.png); width: 20%; left:950px; top:120px;}
+    50%  {image: url(images/hohefrequenzen.png); width: 35%; left:658px; top:450px;}
+    75%  {image: url(images/hohefrequenzen.png); width: 20%; left:112px; top:230px;}
+    100% {image: url(images/hohefrequenzen.png); width: 10%; left:400px; top:145px;}
   }
 
 /*random*/
