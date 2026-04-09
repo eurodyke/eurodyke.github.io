@@ -612,7 +612,7 @@ button {
     bottom: 1em;
 }
 
-.cubase1 {
+.antifa1 {
     position: relative;
     animation-name: cubaseani;
     animation-duration: 8s;
@@ -622,7 +622,7 @@ button {
     z-index: -1;
   }
 
-  .cubase2 {
+  .antifa2 {
     width: 100%;
   }
 
